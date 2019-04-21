@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="953d6af8-7b1a-41b1-8f3a-d5e428a7f62c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hackproject/hackapp/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackproject/hackapp/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackproject/hackapp/templates/home/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackproject/hackapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BeachHacks2019.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeachHacks2019.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackproject/hackapp/templates/home/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackproject/hackapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/hackapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackproject/hackapp/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/hackapp/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hackproject/hackapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/hackapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hackproject/hackapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/hackapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackproject/hackproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/hackproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackproject/hackproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackproject/hackproject/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackproject/hackapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -35,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackproject/hackapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -44,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackproject/hackproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state>
+              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
               <folding>
                 <element signature="e#635#667#0" expanded="true" />
               </folding>
@@ -56,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackproject/hackapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -68,14 +61,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hackproject/hackapp/templates/home/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackproject/hackapp/templates/home/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,9 +127,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -140,12 +146,13 @@
       <list>
         <option value="$PROJECT_DIR$/hackproject/hackapp/serializers.py" />
         <option value="$PROJECT_DIR$/hackproject/hackapp/models.py" />
-        <option value="$PROJECT_DIR$/hackproject/hackapp/urls.py" />
         <option value="$PROJECT_DIR$/hackproject/hackproject/urls.py" />
         <option value="$PROJECT_DIR$/hackproject/hackapp/templates/home/index.css" />
         <option value="$PROJECT_DIR$/hackproject/hackapp/templates/home/home.html" />
         <option value="$PROJECT_DIR$/hackproject/hackproject/settings.py" />
+        <option value="$PROJECT_DIR$/hackproject/hackapp/templates/home/about.html" />
         <option value="$PROJECT_DIR$/hackproject/hackapp/views.py" />
+        <option value="$PROJECT_DIR$/hackproject/hackapp/urls.py" />
         <option value="$PROJECT_DIR$/hackproject/hackapp/templates/home/index.html" />
       </list>
     </option>
@@ -250,19 +257,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555806587109</updated>
-      <workItem from="1555806589268" duration="6405000" />
+      <workItem from="1555806589268" duration="7004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6405000" />
+    <option name="totallyTimeSpent" value="7004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1051" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20614469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20614469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -324,16 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackproject/hackproject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#635#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hackproject/hackapp/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -348,34 +345,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hackproject/hackapp/urls.py">
+    <entry file="file://$PROJECT_DIR$/hackproject/hackapp/templates/home/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="525">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hackproject/hackapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackproject/hackapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackproject/hackproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#635#667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hackproject/hackapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hackproject/hackapp/templates/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#1;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
