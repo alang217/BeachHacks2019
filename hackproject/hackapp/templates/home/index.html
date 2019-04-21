@@ -20,45 +20,42 @@
             <img src="../../static/SoundCheckLogo.png" width="150" height="60" class="d-inline-block align-top" alt="">
         </a>
         <a href="{% url 'home' %}" style="font-weight:bold;">Home</a>
-        <a href="{% url 'about' %}">About the Team</a>
     </nav>
 
     <div class="jumbotron">
             <h1 class="display-4" style="align-content:center;"> Check It Before You Send It</h1>
             <p class="lead"> Enter the message you want to check.</p>
 
-            <div class="form-group">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="background-color: #e0e0e0"></textarea>
-            </div>
+
+            {% csrf_token %}
+            {{form.as_p}}
+             <a class="btn btn-light btn-lg" type="submit" href="#" style="align-content:center; margin-bottom: 20px; background-color: #F8DF59"  role="button">Check</a>
+
+
 
             <hr class="my-4">
-            <a class="btn btn-light btn-lg" href="#" style="align-content:center; margin-bottom: 20px;"  role="button">Check</a>
 
-            <table class="table">
+
+            <table class="table" style="height: 600px; font-size: 20px">
                 <tbody>
                      <tr>
                         <th scope="row">Tone</th>
-                            <td>Positive</td>
-                     </tr>
-
-                     <tr>
-                            <th scope="row">Emotion</th>
-                                <td>Happy</td>
+                            <td>{{tone}}</td>
                      </tr>
 
                      <tr>
                             <th scope="row">Professionalism</th>
-                                <td><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"></td>
+                                <td> {{proffesionalism}}</td>
                      </tr>
 
                      <tr>
                             <th scope="row">Offensiveness</th>
-                                <td>Not Offensive</td>
+                                <td>{{hate_speach}}</td>
                      </tr>
 
                      <tr>
                             <th scope="row">Reading Level</th>
-                            <td><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"><img src="../../static/icons8-christmas-star-26.png"></td>
+                         <td> {{reading_level}}</td>
                      </tr>
 
 

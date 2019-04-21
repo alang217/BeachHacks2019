@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'hackapp.apps.HackappConfig',
+    'widget_tweaks'
 ]
 
 STATICFILES_DIRS = (
