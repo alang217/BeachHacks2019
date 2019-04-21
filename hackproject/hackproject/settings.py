@@ -37,7 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'hackapp.apps.HackappConfig',
 ]
+
+STATICFILES_DIRS = (
+    '/Users/Gyulnara/BeachHacks2019/hackproject/hackapp/static/',
+)
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
